@@ -1,7 +1,6 @@
-from fastapi import FastAPI, Path, Query, HTTPException, status
+from fastapi import FastAPI, Path, HTTPException, status
 from fastapi.middleware.cors import CORSMiddleware
 import pandas as pd
-from typing import Optional
 import requests
 
 
